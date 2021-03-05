@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: black;
+}
+div{
+    border: 3px white ridge;
+    border-radius: 25px;
+    width: 140px;
+    height: 70px;
+    margin: 300px auto;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    transition: ease-in-out 1s;
+}
+h4{
+    text-align: center;
+    color: white;
+}
+div:hover{
+    transform: translate(10px, -10px);
+    border-radius:25px;
+    border: 3px #FFFF66 ridge;
+    box-shadow: 5px 10px #FFFF66;
+    cursor:pointer;
+    /*transform: rotateZ(180deg);*/
+}
+div:hover h4{
+    color: #FFFF66;
+}
